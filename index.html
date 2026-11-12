@@ -380,6 +380,44 @@ section{padding:68px 0}
       </div>
     </article>
 
+    <article class="case rv">
+      <div class="art alt"><div class="flow">
+        <div class="node">Flaw reproduced<small>exploit test</small></div>
+        <div class="node">Fix applied<small>safe version</small></div>
+        <div class="node">Report written<small>severity and CWE</small></div>
+      </div></div>
+      <div class="body">
+        <span class="kind">Security review sample, open source</span>
+        <h3>Secure code review: seven findings, fixed and proven</h3>
+        <p>A public sample (not client work) showing how I review code and report on it: injection, broken access control, weak password storage, path traversal, XSS, open redirect and a timing leak.</p>
+        <dl class="dl">
+          <div><dt>Approach</dt><dd>Each finding has an exploit test that proves the flaw, a remediated version, and a test that proves the fix, all run in CI.</dd></div>
+          <div><dt>Deliverable</dt><dd>A client-style report with severity, CWE reference, impact and remediation for every issue, ordered by risk.</dd></div>
+        </dl>
+        <div class="tags"><span>.NET 8</span><span>OWASP</span><span>CWE</span><span>xUnit</span></div>
+        <p style="margin-top:18px"><a class="btn ghost sm" href="https://github.com/MustiPat/secreview-dotnet" target="_blank" rel="noopener">View the code and report on GitHub</a></p>
+      </div>
+    </article>
+
+    <article class="case rv">
+      <div class="art alt"><div class="flow">
+        <div class="node">Push to main<small>or daily</small></div>
+        <div class="node">Browser tests run<small>desktop and phone</small></div>
+        <div class="node">Report saved<small>traces on failure</small></div>
+      </div></div>
+      <div class="body">
+        <span class="kind">Test automation sample, open source</span>
+        <h3>End-to-end test suite for a live website</h3>
+        <p>A public Playwright and TypeScript suite (not client work) that checks this very site the way a QA team would, and can be pointed at any other site.</p>
+        <dl class="dl">
+          <div><dt>Approach</dt><dd>Stable selectors, no fixed waits, desktop and phone-sized runs, a configurable base URL, and a daily scheduled run so a broken deployment is noticed.</dd></div>
+          <div><dt>Covers</dt><dd>Navigation, content, expandable sections, link health, accessibility basics, layout overflow and script errors.</dd></div>
+        </dl>
+        <div class="tags"><span>Playwright</span><span>TypeScript</span><span>GitHub Actions</span><span>QA</span></div>
+        <p style="margin-top:18px"><a class="btn ghost sm" href="https://github.com/MustiPat/playwright-e2e-portfolio" target="_blank" rel="noopener">View the code on GitHub</a></p>
+      </div>
+    </article>
+
   </div>
 </div></section>
 
