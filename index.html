@@ -286,7 +286,7 @@ section{padding:68px 0}
 <section id="work" class="band"><div class="wrap">
   <div class="head rv">
     <span class="eyebrow">Selected work</span>
-    <h2>Projects delivered in production.</h2>
+    <h2>Selected projects.</h2>
     <p>Client names are kept private.</p>
   </div>
   <div class="cases">
@@ -358,6 +358,25 @@ section{padding:68px 0}
           <div><dt>Result</dt><dd>Less IT dependency and a smoother quote-to-invoice flow.</dd></div>
         </dl>
         <div class="tags"><span>.NET</span><span>DevExtreme</span><span>Entity Framework</span><span>SQL Server</span></div>
+      </div>
+    </article>
+
+    <article class="case rv">
+      <div class="art alt"><div class="flow">
+        <div class="node">Question asked<small>received</small></div>
+        <div class="node">Matching passages<small>ranked</small></div>
+        <div class="node">Answer with sources<small>cited</small></div>
+      </div></div>
+      <div class="body">
+        <span class="kind">AI demo, open source</span>
+        <h3>Document question-answering API</h3>
+        <p>A public demo project (not client work) that answers questions from uploaded documents and cites where each answer came from.</p>
+        <dl class="dl">
+          <div><dt>Approach</dt><dd>Paragraph-aware chunking, BM25 retrieval and a pluggable answer step: an offline mode, or any OpenAI-compatible language model.</dd></div>
+          <div><dt>Safeguards</dt><dd>Input limits, optional API-key protection, a fallback when the model call fails, and a prompt that treats document text as untrusted.</dd></div>
+        </dl>
+        <div class="tags"><span>.NET 8</span><span>RAG</span><span>BM25</span><span>xUnit</span></div>
+        <p style="margin-top:18px"><a class="btn ghost sm" href="https://github.com/MustiPat/docqa-dotnet" target="_blank" rel="noopener">View the code on GitHub</a></p>
       </div>
     </article>
 
